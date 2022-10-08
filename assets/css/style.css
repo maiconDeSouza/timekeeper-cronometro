@@ -1,0 +1,101 @@
+@import url('./global.css');
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+section h1{
+    font-size: 3rem;
+    color: var(--color-text);
+}
+
+section main{
+    height: 16rem;
+
+    
+}
+
+section main .one{
+    width: 15rem;
+    height: 15rem;
+
+   
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-text);
+}
+
+section main .one .two{
+    width: 14rem;
+    height: 14rem;
+
+    
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-color);
+}
+
+section main .one .two p{
+    font-size: 3rem;
+    color: var(--color-text);
+}
+
+section footer{
+    height: 8rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+    
+}
+
+section footer button{
+    width: 6.5rem;
+    height: 3.5rem;
+    border: none;
+
+    color: var(--color-text);
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+section footer button:nth-of-type(1){
+    background-color: var(--start-green);
+
+    border-radius: 12px 0 0 12px;
+}
+
+section footer button:nth-of-type(1):active{
+    transform: scale(0.98)
+}
+
+section footer button:nth-of-type(2){
+    background-color: var(--pause-yellow);
+}
+
+section footer button:nth-of-type(2):active{
+    transform: scale(0.98)
+}
+
+section footer button:nth-of-type(3){
+    background-color: var(--reset-red);
+
+    border-radius: 0 12px 12px 0;
+}
+
+section footer button:nth-of-type(3):active{
+    transform: scale(0.98)
+}
