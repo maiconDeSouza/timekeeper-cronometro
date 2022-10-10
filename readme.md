@@ -31,7 +31,7 @@
 <ul>
 	<li>HTML</li>
 	<li>CSS</li>
-	<li>CSS</li>
+	<li>JS</li>
 </ul>
 <hr>
 <h2>Como executar o projeto</h2>
